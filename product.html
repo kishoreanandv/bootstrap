@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Product</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.slim.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <link rel="stylesheet" type="text/css" href="../css/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC" rel="stylesheet">
+</head>
+<body class="container-fluid">
+<!--Navigation bar contains brand name and navigation links -->
+  <nav class="navbar navbar-default navbar-fixed-top" >
+    <div class="container-fluid">
+      <div class="navbar-header">
+      <!--Button for collapsed navbar-->
+        <button type="button" class="navbar-toggle collapsed">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../home.html">DigiZONE</a>
+      </div>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="nav navbar-nav">
+          <li><a href="../home.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home <span class="sr-only">(current)</span></a></li>
+          <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Laptops <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Apple</a></li>
+              <li><a href="#">HP</a></li>
+              <li><a href="#">DELL</a></li>
+              <li><a href="#">Lenovo</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Others</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mobiles <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Apple</a></li>
+              <li><a href="#">Samsung</a></li>
+              <li><a href="#">Moto</a></li>
+              <li><a href="#">HTC</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Others</a></li>
+            </ul>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tablets <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Apple</a></li>
+                <li><a href="#">Asus</a></li>
+                <li><a href="#">Micromax</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Others</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav">
+           <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Accessories <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Chargers</a></li>
+              <li><a href="#">Ear Phones</a></li>
+              <li><a href="#">Speakers</a></li>
+              <li><a href="#">Power Banks</a></li>
+              <li><a href="#">Screen Guards</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Others</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="navbar-form pull-left">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+          <button type="submit" class="btn btn-default">Search</button>
+        </form>
+        <ul  class="nav navbar-nav pull-right">
+         <li>
+          <a href="#myModal" type="button" data-toggle="modal"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Sign In </a>
+        </li>
+      </ul>
+
+
+    </div>
+  </div>
+</nav>
+<!--Navigation bar ends-->
+
+<!-- Row for displaying tab pane Starts-->
+<div class="row pro ">
+  <div class="col-lg-4 col-sm-12 col-md-12">
+    <div class="thumbnail">
+      <center><img src="../images/p1.jpg" class="img-responsive product1" alt="zenfone3"></center>
+      <div class="product">
+        <center><a href="#" class=" btn btn-warning " role="button">Add to Cart</a></center>
+        <center><a href="#" class=" btn btn-primary" role="button" id="buy">Buy Now</a></center>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-8 col-sm-12 col-md-12">
+  <!-- Tab section Starts-->
+    <div>
+      <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Price</a></li>
+        <li role="presentation"><a href="#features" aria-controls="features" role="tab" data-toggle="tab">Features</a></li>
+      </ul>
+      <!-- Content for Tab Panel 1 Starts-->
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="home">
+          <h3>ASUS Zenfone 3(Black 32GB)(With snapdragon 615)</h3>
+          <p class="price"><b><i class="fa fa-inr" aria-hidden="true"></i>  19,999</b></p>
+          <p><span class="glyphicon glyphicon-lock" aria-hidden="true"></span> EMIs from Rs.485/month <a href="#">View Plans</a>
+            <p><span class="glyphicon glyphicon-piggy-bank" aria-hidden="true"></span> Get upto Rs.8,000 off on exchange <a href="#">Buy with Exchange</a></p>
+            <p><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> Bank Offer Extra 5% off* on Axis Bank Buzz Credit Cards<a href="#">T&C</a></p>
+            <p><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> Bank Offer Additional 10% Instant Discount* with Axis Bank Debit and Credit Cards<a href="#">T&C</a></p>
+            <h5><span class="glyphicon glyphicon-gift" aria-hidden="true"></span> Delivery options</h5>
+            <div class="input-group">
+             <div class="input-group-btn">
+              <button class="btn btn-default" type="button">Search</button>
+            </div>  
+            <input type="text" class="form-control" placeholder="Pincode" aria-label="Pincode" id="delivery">
+          </div>
+          <h4>Rate our Product</h4><span class="glyphicon glyphicon-star rate" aria-hidden="true"></span>
+          <span class="glyphicon glyphicon-star rate" aria-hidden="true"></span>
+          <span class="glyphicon glyphicon-star rate" aria-hidden="true"></span>
+          <span class="glyphicon glyphicon-star rate" aria-hidden="true"></span>
+          <span class="glyphicon glyphicon-star rate" aria-hidden="true"></span>
+        </div>
+        <!-- Tab Panel 1 content ends-->
+
+         <!-- Content for Tab Panel 2 Starts-->
+        <div role="tabpanel" class="tab-pane" id="features">
+          <ul class="specs">
+            <li><p>2GB RAM | 32GB ROM</p></li>
+            <li><p>Expandable upto 64GB</p></li>
+            <li><p>5.5 inch HD Display</p></li>
+            <li><p>13MP Primary Camera | 5MP Front</p></li>
+            <li><p>5000mAh Battery</p></li>
+            <li><p>Qualcomm Snapdragon 615 Processor</p></li>
+            <li><p>All Battery Life Claims are Approximate and Based on an Average of Usage and Standby Time. Actual Battery Performance will Vary Based on Factors Such as Signal Strength, Network Configuration, Age of Battery, Operating Temperature, Features Selected, Device Settings, Voice Calls, Data Usage and Other Application Usage Patterns</p>
+              <li><p>4G Connectivity and Phone Features Depend on the Carrier and the Location of the User<p></li>
+            </ul>
+            <center><button class="btn btn-info" type="button">View All Reviews</button></center>
+          </div>
+           <!-- Tab Panel 1 content ends-->
+        </div>
+      </div>
+      <!-- Tab Section ends-->
+    </div>
+    </div>
+  <!--Row starts for thumbnail display-->
+  <div class="row ">
+    <div class="col-lg-2 col-sm-6 col-md-4" id="deal">
+      <div class="thumbnail">
+        <div class="caption heading">
+          <center><p>You <br>May <br>also<br> Like</p></center>
+          <center><a href="#" class="btn btn-primary" role="button">View All</a></center>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-2 col-sm-6 col-md-4">
+      <div class="thumbnail">
+       <img src="../images/l1.jpg" alt="like1">
+       <div class="caption">
+        <center><h3>iPad Air</h3></center>
+        <center><p>Bank Offer</p></center>
+        <center><a href="#" class="btn btn-primary" role="button">Buy Now</a></center>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-2 col-sm-6 col-md-4">
+    <div class="thumbnail">
+     <img src="../images/l2.jpeg" alt="like2">
+     <div class="caption">
+      <center><h3>Canvas 3</h3></center>
+      <center><p>From Rs9999 onwards</p></center>
+      <center><a href="#" class="btn btn-primary" role="button">Buy Now</a></center>
+    </div>
+  </div>
+</div>
+<div class="col-lg-2 col-sm-6 col-md-4">
+  <div class="thumbnail">
+   <img src="../images/l3.jpeg" alt="like3">
+   <div class="caption">
+     <center><h3>Samsung J7</h3></center>
+     <center><p>Upto 7% Cashback</p></center>
+     <center><a href="#" class="btn btn-primary" role="button">Buy Now</a></center>
+   </div>
+ </div>
+</div>
+<div class="col-lg-2 col-sm-6 col-md-4">
+  <div class="thumbnail">
+   <img src="../images/l4.jpg" alt="like4">
+   <div class="caption">
+    <center><h3>JBL Bluetooth</h3></center>
+    <center><p>Upto 12% Offer</p></center>
+    <center><a href="#" class="btn btn-primary" role="button">Buy Now</a></center>
+  </div>
+</div>
+</div>
+<div class="col-lg-2 col-sm-6 col-md-4">
+  <div class="thumbnail">
+   <img src="../images/l5.jpg" alt="like5" class="img-responsive">
+   <div class="caption">
+    <center><h3>MI PowerBank</h3></center>
+    <center><p>Starting @Rs799/-</p></center>
+    <center><a href="#" class="btn btn-primary" role="button">Buy Now</a></center>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<!--Row ends-->
+
+<!-- Footer Section Starts -->
+<footer class="row footrow ">
+  <div class="col-lg-3 col-sm-3 col-md-">
+    <ul class="foot">
+      <li><h4>HELP</h4></li>
+      <li><a href="#">Payments</a></li>
+      <li><a href="#">Shipping</a></li>
+      <li><a href="#">Cancellation</a></li>
+      <li><a href="#">Returns</a></li>
+      <li><a href="#">FAQ</a></li>
+    </ul>
+  </div>
+  <div class="col-lg-3 col-sm-3 col-md-3">
+    <ul class="foot">
+      <li><h4>E-SHOP</h4></li>
+      <li><a href="#">Contact us</a></li>
+      <li><a href="#">About us</a></li>
+      <li><a href="#">Career</a></li>
+      <li><a href="#">Address</a></li>
+      <li><a href="#">Sell on E-shop</a></li>
+    </ul>
+  </div>
+  <div class="col-lg-3 col-sm-3 col-md-3">
+    <ul class="foot">
+      <li><h4>OTHERS</h4></li>
+      <li><a href="#">Track your order</a></li>
+      <li><a href="#">Stories</a></li>
+      <li><a href="#">Security</a></li>
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Terms&Policies</a></li>
+    </ul>
+  </div>
+  <div class="col-lg-3 col-sm-3 col-md-3">
+    <ul class="foot">
+      <li><h4>JOIN US</h4></li>
+      <li><a href="#"><i class="fa fa-facebook ficon" aria-hidden="true"></i>  Facebook</a></li>
+      <li><a href="#"><i class="fa fa-twitter ficon" aria-hidden="true"></i> Twitter</a></li>
+      <li><a href="#"><i class="fa fa-google-plus ficon" aria-hidden="true"></i> Google+</a></li>
+      <li><a href="#"><i class="fa fa-instagram ficon" aria-hidden="true"></i> Instagram</a></li>
+      <li><a href="#"><i class="fa fa-youtube-play ficon" aria-hidden="true"></i> Youtube</a></li>
+    </ul>
+  </div>
+  <hr>
+  <div class="col-lg-12 col-sm-12 col-md-12">
+    <ul class="foot-payment">
+      <h4>Payment Modes</h4>
+      <li><img src="../images/f1.png" alt="pay1" ></li>
+      <li><img src="../images/f2.jpg" alt="pay2" ></li>
+      <li><img src="../images/f3.png" alt="pay3" ></li>
+      <li><img src="../images/f4.png" alt="pay4" ></li>
+      <li><img src="../images/f5.jpg" alt="pay5" ></li>
+      <li><img src="../images/f6.jpg" alt="pay6" ></li>
+    </ul>
+  </div>
+  <div class="col-lg-12 col-sm-12 col-md-12" id="end">
+    <center><p>Made with <span class="glyphicon glyphicon-heart" aria-hidden="true" id="end1"></span></p><center>
+    </div>
+  </footer>
+  <!-- Footer ends-->
+</body>
+</html>

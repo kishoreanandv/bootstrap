@@ -1,0 +1,294 @@
+	<!DOCTYPE html>
+	<html>
+	<!--Document header starts-->
+	<head>
+		<title>--WANDERLUST---</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.slim.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC" rel="stylesheet">
+	</head>
+	<!--Document header ends-->
+	<body >
+	<!--Navigation bar contains brand name and navigation links -->
+
+		<nav class="navbar navbar-default navbar-fixed-top" >
+			<div class="container-fluid" style="padding:0;margin:0">
+				<div class="navbar-header head" >
+					<a class="navbar-brand" href="#">WANDERLUST</a>
+				</div><!--Button for collapsed navbar-->
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				<div class="collapse navbar-collapse head2" style="border:none" id="menu">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> :-) <span class="sr-only">(current)</span></a></li>
+						<li class="space"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PLANS <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li ><a href="#">BELOW5000</a></li>
+								<li><a href="#">HISTRORIC</a></li>
+								<li><a href="#">PARTY</a></li>
+								<li><a href="#">FAMILY</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="#">Others</a></li>
+							</ul>
+						</li>
+						<li class="dropdown space">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">HOTELS<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">LUXARY</a></li>
+								<li><a href="#">CASUAL</a></li>
+								<li><a href="#">RESORTS</a></li>
+								<li><a href="#">COTTAGES</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="#">Others</a></li>
+							</ul>
+							</li>
+						<ul class="nav navbar-nav">
+							<li class="dropdown space">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> CONTACT US<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">PHONE</a></li>
+									<li><a href="#">EMAIL</a></li>
+									<li><a href="#">FACEBOOK</a></li>
+									<li><a href="#">WATSAP</a></li>
+									<li role="separator" class="divider"></li>
+									<li><a href="#">Others</a></li>
+								</ul>
+							</li>
+						</ul>
+						<form class="navbar-form pull-left">
+							<div class="form-group space">
+								<input type="text" class="form-control" placeholder="Search">
+							</div>
+							<button type="submit" class="btn btn-default space">TRY ME </button>
+						</form>
+						<ul  class="nav navbar-nav pull-right space">
+							<li>
+								<a href="#myModal" type="button" data-toggle="modal"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>  </a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<!--Navigation bar ends-->
+
+			<!--Modal for Sign in pop up starts-->
+			<div class="modal fade" id="myModal">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button class="close" data-dismiss="modal">&times;</button>
+							<h4 class="modal-title">LETS GO IN</h4>
+						</div>
+						<div class="modal-body">
+							<form class="form-horizontal">
+								<div class="form-group">
+									<label class="col-lg-4 control-label" for="username">USER NAME</label>
+									<div class="col-lg-8">
+										<input class="form-control" id="username" type="text">
+									</div>
+								</div>
+
+								<div class="form-group">
+									<label class="col-lg-4 control-label" for="password">PASSWORD</label>
+									<div class="col-lg-8">
+										<input class="form-control" id="password" type="text">
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="modal-footer">
+							<a href="#myModalSign" type="button" data-toggle="modal" class="pull-left">NEW USER? REgiSTER FAsT </a>
+							<button class="btn btn-primary" type="button">LETS GO IN</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Sign in Modal ends-->
+
+			<!--Modal for Create Account starts-->
+			<div class="modal fade" id="myModalSign">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button class="close" data-dismiss="modal">&times;</button>
+							<h4 class="modal-title">LETS GO IN</h4>
+						</div>
+						<div class="modal-body">
+							<form class="form-horizontal">
+								<div class="form-group">
+									<label class="col-lg-4 control-label" for="username">FIRST NAME</label>
+									<div class="col-lg-8">
+										<input class="form-control" id="username" type="text">
+									</div>
+									<label class="col-lg-4 control-label" for="lastname">LAST NAME</label>
+									<div class="col-lg-8">
+										<input class="form-control" id="lastname" type="text">
+									</div>
+									<label class="col-lg-4 control-label" for="email">E-MAIL</label>
+									<div class="col-lg-8">
+										<input class="form-control" id="email" type="text">
+									</div>
+									<label class="col-lg-4 control-label" for="pwd">PASSWORD</label>
+									<div class="col-lg-8">
+										<input class="form-control" id="pwd" type="text">
+									</div>
+									<label class="col-lg-4 control-label" for="rpassword">CONFIRM PASSWORD</label>
+									<div class="col-lg-8">
+										<input class="form-control" id="rpassword" type="text">
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="modal-footer">
+							<button class="btn btn-primary" type="button">Create Account</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Create Account Modal ends-->
+
+			<!--Carousel section for image slide show starts-->
+
+			<div class="carousel " style="width:100%"id="mySlide">
+				<div class="carousel-inner">
+					<ol class="carousel-indicators">
+						<li class="active" data-slide-to="0" data-target="#mySlide"></li>
+						<li data-slide-to="1" data-target="#mySlide"></li>
+						<li data-slide-to="2 " data-target="#mySlide"></li>
+						<li data-slide-to="3" data-target="#mySlide"></li>
+					</ol>
+
+
+					<div class="item active" id="slide1">
+						<div class="carousel-caption">
+						</div>
+					</div>
+
+
+					<div class="item" id="slide2">
+						<div class="carousel-caption">
+						</div>
+					</div>
+
+
+					<div class="item" id="slide3">
+						<div class="carousel-caption">
+						</div>
+					</div>
+
+
+					<div class="item" id="slide4">
+						<div class="carousel-caption">
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<!--Carousel section ends-->
+
+			<div class="col-sm-12">
+				<div class ="infocenter">
+					<h1 align="center"> MUST KNOW </h1>
+				</div>
+			</div>
+
+			
+<div class="container	">
+<div class="col-sm-6">
+	<div class ="hotels">
+		<a href="https://www.tripadvisor.com/TravelersChoice-Hotels-cTop-g1"><img src="resort.jpg" alt="hotel"></a>
+	</div>
+</div>
+
+
+
+
+<div class="col-sm-6">
+	<div class ="hotelinfo">
+		<p><em>  "On Patnem Beach, Tantra Café and Huts is considered to be one of the centrally located beach huts proximate to the coastline of South Goa.
+			Replete with deck chairs and sun beds, it is quite popular among families and tourists alike.The huts are quaint and made of either wood or bamboo." </em></p>
+	</div>
+</div>
+</div>
+
+<div class="container">
+<div class="col-sm-6">
+	<div class="histor">
+		<p><em>  "Buckingham Palace  is the London residence and administrative headquarters of the reigning monarch of the United Kingdom.[3][4] Located in the City of Westminster, the palace is often at the centre of state occasions and royal hospitality.
+			It has been a focal point for the British people at times of national rejoicing and mourning." </em></p>
+	</div>
+</div>
+<div class="col-sm-6">
+	<div class ="historyplace">
+		<a href="https://www.trawell.in/karnataka/heritage"><img src="img25.jpg" alt="hotel"></a>
+	</div>
+</div>
+</div>
+
+<div class="container	">
+<div class="col-sm-6">
+	<div class ="shop">
+		<a href="http://www.chinahighlights.com/travelguide/shopping-streets.htm"><img src="chinashopping.jpg" alt="hotel"></a>
+	</div>
+</div>
+
+<div class="col-sm-6">
+	<div class ="shopinfo">
+		<p><em>  "Wangfujing Street is one of the largest and most popular pedestrian streets in China. There are many outdoor cafes in the summer - a nice place to take an ice-cream or frozen beer under a shady umbrella.
+			It is also home to a number of large department stores, souvenir stores, food stalls, and Chinese painting stores.." </em></p>
+	</div>
+</div>
+</div>
+
+<div class="container">
+	<div class="status">
+	<h1 align="center"> SOCIAL STATUS </h1>
+</div>
+
+	<div class="col-sm-6">
+		<div class ="facebook">
+			<a href="https://www.facebook.com/wanderlust/"><img src="face.jpg" alt="hotel"></a>
+		</div>
+	</div>
+
+
+		<div class="col-sm-6">
+			<div class ="twit">
+			<a href="https://twitter.com/WanderlustFest?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="twit.jpg" alt="Link to this page"></a> 
+			</div>
+		</div>
+</div>
+
+
+<div class="container-fluid footer">
+<footer >
+<h4 align="center">JOIN US</h4>
+			<div class="col-sm-3 ">
+				<ul class="foot">
+					
+					<li><a href="#"><i class="fa fa-facebook ficon" aria-hidden="true"></i>  Facebook</a></li>
+					<li><a href="#"><i class="fa fa-twitter ficon" aria-hidden="true"></i> Twitter</a></li>
+					<li><a href="#"><i class="fa fa-google-plus ficon" aria-hidden="true"></i> Google+</a></li>
+					<li><a href="#"><i class="fa fa-instagram ficon" aria-hidden="true"></i> Instagram</a></li>
+					<li><a href="#"><i class="fa fa-youtube-play ficon" aria-hidden="true"></i> Youtube</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-9 " id="end">
+			<a href="https://www.google.co.in/maps/place/StackRoute/@12.9353233,77.6117785,17z/data=!3m1!4b1!4m5!3m4!1s0x3bae144e0c7d418f:0x48d008360cebcde4!8m2!3d12.9353233!4d77.6139725"><img src="map.jpg" alt="hotel"></a>
+				
+			</div></footer>
+</div>		
+		<!-- Footer ends-->
+	</body>
+	</html>

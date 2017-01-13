@@ -1,0 +1,314 @@
+body{
+	background: #ecf0f1;
+}
+
+.navbar{
+	background-color: #ecf0f1;
+	margin-left: 0px;
+}
+.head{
+		float: left;
+
+}
+.space{
+	margin-right: 90px;
+}
+.head2{
+	float: left;
+	
+}
+.navbar-brand{
+	text-align: center;
+}
+#menu a{
+	color: #2c3e50;
+	font-family: fontion;
+	
+}
+.hotels img
+{
+	height: 360px;
+	width: 450px;
+	padding-top: 90px;
+	margin-left: 100px;
+	margin-right: 0px;
+
+}
+.hotelinfo p
+{
+	font-size: 19px;
+	font-family: Helvetica;
+	padding-top: 150px;
+	margin-right: 70px;
+}
+
+.historyplace img
+{
+	height: 360px;
+	width: 450px;
+	padding-top: 90px;
+	margin-right: 100px;
+	margin-right: 0px;
+}
+
+.histor p{
+
+	font-size: 19px;
+	font-family: Helvetica;
+	padding-top: 150px;
+	margin-left: 100px;
+}
+
+.shop img{
+
+	height: 360px;
+	width: 450px;
+	padding-top: 90px;
+	margin-left: 100px;
+	margin-right: 0px;
+
+}
+
+.shopinfo p{
+
+
+	font-size: 19px;
+	font-family: Helvetica;
+	padding-top: 150px;
+	margin-right: 70px;
+}
+
+.infocenter h1
+{
+	padding-top:50px;
+	font-family:fontion;
+}
+
+.facebook img{
+	height: 360px;
+	width: 450px;
+	padding-top: 90px;
+}
+
+.twit img{
+	height: 360px;
+	width: 450px;
+	padding-top: 90px;
+
+}
+.status h1
+{
+	padding-top:50px;
+	font-family:fontion;
+}
+
+.page-header{
+	background: darkslategrey;
+	margin-top:-18px;
+	box-shadow: 0px;
+}
+
+.page-header h1{
+	color:#2c3e50;
+	padding-top: 0px;
+	font-style: italic;
+	}
+
+.navbar-default .navbar-brand {
+	color: #2c3e50;
+	font-family: fontion;
+	font-size: 25px;
+}
+
+
+#menu a:hover{
+	background: none;
+}
+
+#menu .active a{
+	background:none;
+}
+
+.dropdown-menu {
+	background-color:#ecf0f1;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+	background-color: none;
+}
+
+
+#mySlide{
+	height: 400px;
+	margin-top: 53px;
+}
+
+#slide1{
+	background:url(img21a.jpg) top center no-repeat;
+	height: 400px;
+}
+
+#slide2{
+	background:url(img16a.jpg) top center no-repeat;
+	height: 400px;
+}
+
+#slide3{
+	background:url(garda.jpg) top center no-repeat;
+	height: 400px;
+}
+
+#slide4{
+	background:url(grassa.jpg) top center no-repeat;
+	height: 400px;
+}
+
+@media(min-width: 1200px){
+#mySlide{
+	height: 720px;
+	margin-top: 53px;
+}
+
+#slide1{
+	background:url(img21.jpg) top center no-repeat;
+	height: 720px;
+
+}
+
+#slide2{
+	background:url(img16.jpg) top center no-repeat;
+	height: 720px;
+
+}
+
+#slide3{
+	background:url(gard.jpg) top center no-repeat;
+	height: 720px;
+
+}
+
+#slide4{
+	background:url(grass.jpg) top center no-repeat;
+	height: 720px;
+
+}
+}
+
+
+@media(max-width: 768px){
+#mySlide{
+	height: 300px;
+	margin-top: 53px;
+}
+
+#slide1{
+	background:url(img21b.jpg) top center no-repeat;
+	height: 300px;
+}
+
+#slide2{
+	background:url(img16b.jpg) top center no-repeat;
+	height: 300px;
+}
+
+#slide3{
+	background:url(gardb.jpg) top center no-repeat;
+	height: 300px;
+}
+
+#slide4{
+	background:url(grassb.jpg) top center no-repeat;
+	height: 300px;
+}
+}
+
+.row{
+	margin-top: 2px;
+	border: 0px;
+	background: snow;
+}
+
+.tab-pane h4{
+	margin-top: 50px;
+}
+
+.caption p{
+	color: green;
+}
+
+.thumbnail{
+	margin-top: 15px;
+}
+
+.rate:hover{
+	color: gold;
+}
+
+#deal p{
+	color: black;
+	font-size: 32px;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-weight: bold;
+}
+
+.ficon{
+	color:white;
+}
+
+.footrow{
+	background: black;
+}
+
+.foot{
+	list-style: none;
+}
+
+.foot li {
+	color: #ecf0f1
+
+}
+
+.foot a{
+	color:#ecf0f1;
+	padding-top: 10px;
+	text-decoration: none;
+}
+
+
+.foot-payment{
+	list-style: none;
+}
+
+.foot-payment li{
+	display:inline;
+}
+
+.foot-payment h4{
+	color: #2c3e50;
+}
+
+#end img
+{
+	height: 300px;
+	width: 350px;
+	padding-top: 1px;
+	margin-left: 450px;
+
+}
+
+.footer h4
+{
+	font-family: fontion;
+	padding-top: 20px;
+	font-size: 40px;
+}
+.footer
+{
+	background-color: #34495e;
+}
+
+ul.foot{
+	margin-top: 40px;
+	margin-left: 400px;
+
+}
